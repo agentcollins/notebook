@@ -1,0 +1,8 @@
+# init
+git init - initializes a directory as a git repo
+
+# add
+git add <file...> adds one or more files to the staging or index
+
+# commit
+git commit -m '<message>' commits files from index/staging to master branch with message as a note
