@@ -1,0 +1,5 @@
+# |
+used between commands to chain them together
+
+# grep
+grep <search string> <file> searches file for search string
