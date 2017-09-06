@@ -1,0 +1,35 @@
+CRUD
+Create
+Read
+Update
+Delete
+
+# mkdir
+mkdir <directory> to create a directory
+-p allows for creating a chain of directories
+
+
+# touch
+touch <file> to create a file
+
+# cat
+cat <file> read file
+
+# nano
+nano <file> opens file to update/edit (other editors are available)
+
+# rm
+rm <file> deletes file
+
+# rm -r
+rm -r <directory> used to delete directory and all of its contents
+
+# rmdir
+rmdir <directory> removes empty directory
+
+# mv
+mv <source file>  <destination file> to move a file and/or rename the file (same directory or different)
+
+# cp
+cp <source file> <destination file> to copy file
+-r allows copying of directorys and their contents
