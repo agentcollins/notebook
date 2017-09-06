@@ -1,0 +1,200 @@
+    1  ls ~
+    2  ls -G
+    3  xcode-select --install
+    4  xcode-select --install
+    5  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    6  brew analytics off
+    7  brew help
+    8  brew install bash
+    9  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells
+   10  chsh -s /usr/local/bin/bash
+   11  bash -version
+   12  whoami
+   13  curl -fsSL https://git.io/v50Ta | ruby
+   14  echo $SHELL
+   15  whoami
+   16  pwd
+   17  ls
+   18  ls -a
+   19  ls ~
+   20  ls /Users/richcoll
+   21  ls .
+   22  cd Desktop/
+   23  cd
+   24  open 
+   25  open .
+   26  clear
+   27  pwd
+   28  ls -l
+   29  ls -h
+   30  ls -hl
+   31  ll
+   32  ls -hal
+   33  ls -a
+   34  la
+   35  clear
+   36  man ls
+   37  man cd
+   38  help cd
+   39  cd /
+   40  cd ~
+   41  pwd
+   42  cd Desktop/
+   43  cd /
+   44  ls
+   45  cd home/
+   46  ls
+   47  ls -a
+   48  cd ../Users/richcoll/Desktop/
+   49  cd /
+   50  cd iZrtr
+   51  ll
+   52  la
+   53  ls
+   54  cd Volumes/
+   55  ls
+   56  cd ..
+   57  ls Library/
+   58  cd /Library/Caches/
+   59  ls
+   60  cd ~
+   61  cd var/
+   62  cd /
+   63  cd var
+   64  ls
+   65  ls -a
+   66  cd -
+   67  cd Volumes/
+   68  ls
+   69  cd Macintosh\ HD
+   70  ls
+   71  cd /
+   72  echo $EDITOR
+   73  echo $SHELL
+   74  brew install tree
+   75  tree ~
+   76  tree -L 1 ~
+   77  cd /
+   78  ll
+   79  ll /Applications/
+   80  ll ~/Applications/
+   81  ls
+   82  Desktop
+   83  ..
+   84  brew install git
+   85  git --version
+   86  brew install bash-completion
+   87  curl -fsSL https://git.io/v504A | ruby
+   88  git config --global user.name 'Rick Collins'
+   89  git config --global user.email richcoll@amazon.com
+   90  git config --list
+   91  curl -fsSL https://git.io/v500H | sh
+   92  git config --list
+   93  java -version
+   94  clear
+   95  cd
+   96  mkdir ~/Projects
+   97  cd Projects/
+   98  mkdir week01
+   99  ls
+  100  cd week01
+  101  mkdir notebook
+  102  cd notebook/
+  103  touch notes.txt
+  104  ll
+  105  cat notes.txt 
+  106  echo $?
+  107  nano notes.txt 
+  108  mv notes.txt commands.txt
+  109  ls
+  110  ll
+  111  mkdir temp
+  112  mv commands.txt temp/
+  113  ll temp/
+  114  mv temp/commands.txt ./notes.txt
+  115  ll
+  116  ll temp/
+  117  clear
+  118  ll
+  119  cp notes.txt commands.txt
+  120  ll
+  121  cat commands.txt 
+  122  mv notes.txt 'my notes'
+  123  ll
+  124  cat 'my notes' 
+  125  cat my\ notes
+  126  mv 'my notes' notes
+  127  ll
+  128  touch CamelCase.java
+  129  touch snake_case.rb
+  130  touch kebab-case.js
+  131  ll
+  132  rm notes 
+  133  ll
+  134  cat commands.txt 
+  135  rmdir temp/
+  136  ll
+  137  man rmdir
+  138  man rm
+  139  cd ..
+  140  ll
+  141  rm -r notebook/
+  142  ll
+  143  mkdir notebook
+  144  touch crud.txt
+  145  nano crud.txt 
+  146  cat crud.txt 
+  147  nano crud.txt 
+  148  cat crud.txt 
+  149  clear
+  150  ll
+  151  mv crud.txt notebook/crud.txt
+  152  ll
+  153  cd notebook/
+  154  l
+  155  ll
+  156  nano crud.txt 
+  157  history
+  158  clear
+  159  history
+  160  history 118
+  161  history 10
+  162  clear
+  163  clear
+  164  ll
+  165  ll
+  166  history > commands.txt
+  167  cat commands.txt 
+  168  ll
+  169  history >> commands.txt 
+  170  ll
+  171  less commands.txt 
+  172  history > commands.txt 
+  173  less
+  174  less commands.txt 
+  175  find /Users/richcoll/Projects/ -name crud.txt
+  176  find ~/Projects/ -name crud.txt
+  177  touch redirection.txt
+  178  nano redirection.txt 
+  179  nano redirection.txt 
+  180  cat crud.txt 
+  181  sort crud.txt 
+  182  cat crud.txt 
+  183  head -n 4 crud.txt | sort
+  184  cat commands.txt 
+  185  cat crud.txt 
+  186  ll
+  187  cat redirection.txt 
+  188  history
+  189  head -n 4 crud.txt | tail -n 1
+  190  cat crud.txt 
+  191  grep copy crud.txt 
+  192  grep cp commands.txt 
+  193  grep ! commands.txt
+  194  grep grep ! commands.txt commands.txt 
+  195  grep "cp -r" commands.txt 
+  196  cat commands.txt 
+  197  grep "rm -r" commands.txt 
+  198  head -n 20 commands.txt | tail -n 10
+  199  head -n 20 commands.txt | tail -n 10 | grep ls
+  200  history > commands.txt 
