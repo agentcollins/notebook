@@ -1,0 +1,31 @@
+# history
+history displays all of your command history
+history # gives the last #
+
+# !!
+executes the last command
+
+# !#
+runs the command that is at history line #
+
+# >
+<command> > <file> writes (overrides) to file
+# >>
+<command> >> <file> appends to file
+
+# ctrl+r
+Search history
+
+# head
+Head <file> displays first 10 lines of a file
+-n <#> first # lines
+
+# tail
+Tail <file> last 10 lines
+-n <#> last # lines
+
+# find
+Find <directory> -name <file> produces full filepath for file
+
+# less
+less <file> displays file one page at a time
